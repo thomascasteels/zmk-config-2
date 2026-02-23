@@ -51,9 +51,9 @@
 
 bindings = <
    &kp ESC   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
-   &kp TAB &hml LGUI A &hml LALT R &hml LSHIFT S &hml LCTRL T &kp G   &kp M &hmr RCTRL N  &hmr RSHIFT E     &hmr RALT I   &hmr RGUI O    &kp SQT
+   &kp TAB &hml LGUI A &kp R &hml LSHIFT S &hml LCTRL T &kp G   &kp M &hmr RCTRL N  &hmr RSHIFT E  &kp I   &hmr RGUI O    &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RET
-                  &kp LGUI &mo 1 &kp RET   &kp SPACE &mo 2 &kp RALT
+                  &kp LGUI &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp RALT
 >;
 
                 };
@@ -67,7 +67,7 @@ bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans       &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans 
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp RET      &kp SPACE  &trans   &kp RALT
+                                    &trans     &trans       &trans      &trans  &trans   &trans
                         >;
                 };
 
@@ -81,7 +81,7 @@ bindings = <
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &kp BSPC
    &kp LCTRL &trans   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp BSLH &kp GRAVE
    &kp LSHFT &trans   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp PIPE &kp TILDE
-                             &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
+                             &trans &trans   &kp DEL   &trans   &trans    &trans
                         >;
                 };
         };
