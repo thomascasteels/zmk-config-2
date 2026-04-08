@@ -18,7 +18,7 @@
 			bindings = <
    &kp ESC &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &mo 1
    &kp TAB &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O    &kp SQT
-   &kp ALT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp LGUI
+   &kp LALT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp LGUI
                        &kp LCTRL &kp LSHFT &kp BSPC   &kp RET &kp SPACE &mo 2
 >;
 
