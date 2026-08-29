@@ -51,14 +51,14 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <180>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
 	lt_sk: layer_tap_sticky_key {
             compatible = "zmk,behavior-hold-tap";
-		    #binding-cells = <2>;
-			flavor = "tap-preferred;
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
             tapping-term-ms = <180>;
             bindings = <&mo>, <&sk>;
             display-name = "Layer-Tap-SK";
@@ -115,3 +115,4 @@ bindings = <
 
         };
 };
+
