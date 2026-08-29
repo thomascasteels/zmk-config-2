@@ -57,18 +57,12 @@
         };
 	lt_sk: layer_tap_sticky_key {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <170>;
+		    #binding-cells = <2>;
+			flavor = "tap-preferred
+            tapping-term-ms = <180>;
             bindings = <&mo>, <&sk>;
             display-name = "Layer-Tap-SK";
         };
-	td_lt_sk: tap_dance_layer_tap {
-			compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <125>;
-            bindings = <&lt_sk 1 RSHIFT>, <&caps_word>;
-		};
     };
 };
 
@@ -87,7 +81,7 @@ bindings = <
    &kp ESC   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp DEL
    &kp TAB &hml LGUI A &hml LALT R &hms LSHIFT S &hml LCTRL T &kp G   &kp M &hmr RCTRL N  &hmr RSHIFT E  &hml RALT I   &hmr RGUI O    &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp RET
-                   &kp LGUI &td_lt_sk &kp BSPC      &kp RET &lt 2 SPACE  &kp RALT
+                   &caps_word &lt_sk &kp BSPC      &kp RET &lt 2 SPACE  &kp RALT
 >;
 
                 };
